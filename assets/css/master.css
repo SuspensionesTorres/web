@@ -1,0 +1,277 @@
+/* Bloc de notas */
+.notepad-container {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #f9f9f9a9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.notepad-container h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    background-color: #d3d3d3dc;
+    transition: background-color 0.3s ease;
+    color: #000;
+}
+
+
+
+.img-logo {
+    width: 80%; /* Cambia a 100% si quieres que abarque todo el ancho */
+    max-width: 5000px; /* Limita el tamaño máximo para no exceder demasiado */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px; /* Opcional, para añadir un espacio superior */
+}
+
+.title {
+    padding-top: 40px;
+}
+
+.navbg{
+    background-color: #e5e1e1 !important;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: black !important;
+}
+
+.login{
+    background: rgb(252, 252, 252);
+    background: linear-gradient(153deg, rgba(255,255,255,0.8827906162464986) 51%, rgba(87, 193, 241, 0.409) 100%);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .15);
+    color: rgb(23, 21, 21) !important; 
+    width: 450px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px; 
+}
+
+
+body{
+    background: -webkit-linear-gradient(90deg, #c9c5c6,#afb6b5);
+    background: linear-gradient(90deg, #c9c5c6,#afb6b5);    
+    background-attachment: fixed; /*Controla si el color de fondo se desplaza con el contenido*/
+}
+
+
+/*cuadro de registro */
+
+/* largo del cuadro de registro */
+div.formulario form{
+    padding: 10px;
+    
+    
+}
+/* cambiar el esilo de letras */
+.labelt{
+    display: block;
+    padding: 15px;
+    font-size: 1.1em;
+    color: rgb(99, 99, 87);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.btn{
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.1em;
+}
+
+
+
+.btn-cancel {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.1em;
+    background-color: #f44336;
+    color: white;
+}
+
+.btn-accept {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+    font-family: 'Slabo 27px', serif;
+    font-size: 1.1em;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
+/*estilo del campo de llenado */
+.inputt{
+
+text-align: left;
+    
+}
+
+h1{
+    font-size: 27px;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+h3{
+    font-size: 24px;
+    font-family: 'DM Serif Display', serif;
+    text-align: center;
+}
+
+
+.nom{
+    color:rgb(85, 85, 85);
+    text-align: center;
+    font-family: 'Rancho', cursive;
+    font-size: 1.5em;
+
+    
+}
+.logo{
+    
+    display: block;
+    width: 44%;
+    margin:auto ;
+    padding-top: 0px;
+}
+
+.alert{
+    border: none;
+    
+}
+/*------------------ contorno de campos */
+/* Campos de entrada con borde más grueso */
+.form-control {
+    border-width: 2px; /* Ajusta el grosor aquí */
+    border-color: #000; /* Cambia el color si deseas un tono específico */
+}
+
+/* ----------------------------------------------------------------- */
+.datosM{
+    font-family: 'Neuton', serif;
+    font-size: 1.5em;
+}
+/* ------------------------------------------------------------------- */
+
+.flex-containerr {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .form-labell {
+    margin-right: 74px; /* Ajusta el espacio entre el texto y el input */
+  }
+
+.flex-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .form-label {
+    margin-right: 30px; /* Ajusta el espacio entre el texto y el input */
+    font-size: 18px;
+  }
+  
+  /* ------------------------------------------------------------------ */
+  
+
+  /* parte del menu*/
+  .active-link {
+    background-color: #007bff; /* Fondo azul */
+    color: white !important; /* Texto blanco */
+}
+
+
+
+.success-message {
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+
+
+.table-scroll {
+    max-height: 225px; /* Ajusta la altura según el número de filas que quieras mostrar */
+    overflow-y: auto;
+    display: block;
+}
+
+.table th, .table td {
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+}
+
+.table th {
+    position: sticky;
+    top: 0;
+    background-color: #f8f9fa;
+    z-index: 10;
+}
+
+.total-general {
+    margin-top: 20px;
+    text-align: right;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+
+
+    .content {
+        max-width: 2000px;
+        margin: 0 auto;
+        padding: 60px;
+    }
+
+    
+    .product-header {
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+.product-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        cursor: pointer;
+    }
+    
+.product-item span {
+        width: 20%; /* Esto asegura que cada columna ocupe el 20% del contenedor */
+    }
+    
+    
+
+   
